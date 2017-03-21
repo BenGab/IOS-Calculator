@@ -54,14 +54,22 @@
 		B4B698171E819C3F0027B06C /* Sw3Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				B4B698181E819C3F0027B06C /* AppDelegate.swift */,
+				B4B698481E81A1BE0027B06C /* Supporting Files */,
 				B4B6981A1E819C3F0027B06C /* ViewController.swift */,
-				B4B6981C1E819C3F0027B06C /* Main.storyboard */,
-				B4B6981F1E819C3F0027B06C /* Assets.xcassets */,
 				B4B698211E819C3F0027B06C /* LaunchScreen.storyboard */,
-				B4B698241E819C3F0027B06C /* Info.plist */,
 			);
 			path = Sw3Calculator;
+			sourceTree = "<group>";
+		};
+		B4B698481E81A1BE0027B06C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4B698181E819C3F0027B06C /* AppDelegate.swift */,
+				B4B6981C1E819C3F0027B06C /* Main.storyboard */,
+				B4B6981F1E819C3F0027B06C /* Assets.xcassets */,
+				B4B698241E819C3F0027B06C /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +305,7 @@
 				B4B698291E819C3F0027B06C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
